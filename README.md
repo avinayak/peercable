@@ -1,3 +1,3 @@
 # Peercable
 
-sources for peercable - A Platform for p2p experiments
+Sources for Peercable - A Platform for p2p experiments
