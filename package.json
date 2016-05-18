@@ -14,12 +14,13 @@
     "p2p"
   ],
   "author": "Atul Vinayak",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/avinayak/peercable/issues"
   },
   "homepage": "https://github.com/avinayak/peercable#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "socket.io": "^1.4.6"
   }
 }
