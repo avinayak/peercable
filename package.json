@@ -1,0 +1,25 @@
+{
+  "name": "peercable",
+  "version": "1.0.0",
+  "description": "a platform for p2p experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "testpc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinayak/peercable.git"
+  },
+  "keywords": [
+    "p2p"
+  ],
+  "author": "Atul Vinayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinayak/peercable/issues"
+  },
+  "homepage": "https://github.com/avinayak/peercable#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
