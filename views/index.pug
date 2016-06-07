@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+	head
+		title= "PC"
+		style.
+			tt { 
+				bottom: 0px;
+				font-size:10px;
+				position:fixed;
+				right:0px;
+				text-align: right;
+			}
+		link(href="/css/peercable.css",rel="stylesheet")
+		
+		script(src="https://cdn.socket.io/socket.io-1.4.5.js",type='text/javascript')
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js",type='text/javascript')
+		script(type='text/javascript').
+			var socket = io();
+			var session_id='!{session_id}';
+			var self_id='!{self_id}';
+			var connections=!{connections};
+			var DEBUG = true;
+		script(src="/js/peercable.js",type='text/javascript')
+	body
+		tt(id="log")
