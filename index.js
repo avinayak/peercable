@@ -21,7 +21,7 @@ app.get('/:netid',function (request, response) {
 	if(sessions[request.params.netid])
 	sessions[request.params.netid].push( { peer:peerid } );
 	response.render("index",{
-		connections:'X',
+		connections:'\'X\'',
 		session_id:request.params.netid,
 		self_id:peerid,
 	});
